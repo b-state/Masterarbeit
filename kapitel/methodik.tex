@@ -1,0 +1,40 @@
+\chapter{Methodik}
+\thispagestyle{fancy}
+
+\section{Art der Methodik}
+Als Forschungsgrundlage dieser Arbeit sollte ein Experiment dienen, das den qualitativen Anspruch erhob, neue Erkenntnisse im Bereich der Forschungsfrage zu schaffen. Ein Experiment stellte hierfür die geeignetste Form dar, da die Ergebnisse direkt im VFX-Kontext evaluiert werden konnten. Die allgemeine Vorgehensweise und Wahl der Gütekriterien wird im Folgenden beschrieben.
+
+\section{Aufbau und Ablauf des Experiments}
+Um die Objektivität und Reliabilität der Forschungsarbeit zu wahren, wurden standardisierte Verfahren zur Datenerhebung implementiert. Die Erzeugung und Speicherung der 3D-Daten fand stets auf dieselbe Weise in der Simulationssoftware statt. Um die Simulationsdaten anschließend in eine für die künstliche Intelligenz passende Form zu bringen, kamen eigens angefertigten Skripte der Programmiersprache Python \parencite[]{python} zum Einsatz. \\
+
+Der Versuchsaufbau bestand aus der Erzeugung eines Datensatzes von Rauchsimulationen in der Software Houdini. Es wurden 72 individuelle Simulationen erstellt, die jeweils aus 80 kohärenten Frames bestehen. In jeder Simulation wurde Rauch aus entweder einem oder drei kugelförmigen Emittern erzeugt und stieg nach oben. Die Density des Rauches dissipierte über eine pro Simulation zufällig gewählte Zeit und ebenso wirkten Kräfte wie Wind und Turbulenzen auf die Simulation, deren Richtung und Amplitude variierte. Diese Varianzen waren stets gleich für die Erzeugung einer einzelnen Simulation, sie unterschieden sich nur zu anderen Simulationen. Die maximale Voxelanzahl pro Dimension betrug 200 Voxel und fand somit in einem Container, der sogenannten \textit{Bounding Box}, mit der Maximalgröße 208 $\cdot$ 208 $\cdot$ 208 Voxel statt. Die Differenz von 8 Voxeln ergab sich durch interne Verfahren im OpenVDB Format, sie wurden jedoch in der fortlaufenden Bearbeitung der Daten entfernt. Die gespeicherte OpenVDB Datei eines Frames enthielt das Density und Temperature Field der Simulation.\\
+
+Da eine OpenVDB Datei nicht direkt als Input für ein neuronales Netz genutzt werden konnte, fand eine Konvertierung aller Frames in ein 3D-NumPy-Array statt. Die Programmbibliothek \textit{NumPy} \parencite[]{harris2020array} diente im Allgemeinen zur Bearbeitung von Arrays in Python. Diese Konvertierung erfolgte mit dem Python-Modul des OpenVDB Herstellers. Das neuronale Netz wurde im Python Framework \textit{PyTorch} \parencite[]{torch} erstellt. Die Aufgabe des Netzes sollte sein, die Auflösung jeder Dimension einer Input-Simulation auf die vierfache Größe skalieren. Zur Evaluation des Trainings diente der ausgegebene Fehlerwert des Netzes. Zur visuellen Überprüfung der Ausgabe diente eine OpenVDB Datei pro Frame. Der genaue Aufbau dieses Netzes folgt im nächsten Abschnitt. \\
+
+Nach dem Training sollte ein Python-Skript das Modell der künstlichen Intelligenz nutzen, um eine beim Training nicht verwendete Simulation zu skalieren. Dazu wurde eine neue Simulation erzeugt und im OpenVDB Format gespeichert. Das Python-Skript erhielt den Speicherort der Simulation-Frames und konvertierte jeden Frame zu einem dreidimensionalen NumPy-Array. Anschließend wurde eine Low Resolution, oder niedrig aufgelöste Version des Arrays erstellt und durch das Netz hochskaliert, um die ursprüngliche Auflösung zu erhalten. Diese in der Auflösung skalierte Version stellte die Grundlage für die Evaluation der Gütekriterien dar. \\
+
+Ebenso wurden bereits vorhandene Rauchsimulationen erfasst, um Aussagen über die Simulationszeit und Speichergröße treffen zu können. Dazu wurden 28.950 OpenVDB Files eines Projektes von Mackevision untersucht. Jede Datei enthielt folgende Werte: 
+
+\begin{center}
+\begin{tabular}{ l l }
+
+$\bullet$ Dateispeicherort & $\bullet$ Voxel-Anzahl \\
+$\bullet$ Dateigröße & $\bullet$ Containergröße der Simulation \\
+$\bullet$ Erstellungsdatum der Datei & $\bullet$ Frameindex in der Simulation \\
+$\bullet$ Simulation Fields & $\bullet$ Frameindex in Prozent \\
+
+\end{tabular}
+\end{center}
+
+
+\section{Gütekriterien}
+Um festzustellen, ob der Einsatz eines neuronalen Netzes zum Upsampling von Rauchsimulationen ein optimales Ergebnis erzielt, sollte dieser anhand folgender Kriterien evaluiert werden.\\
+
+\subsubsection*{Artefaktfreiheit} Die Ausgabe des Netzes sollte keine spatialen visuellen Artefakte in die Simulation einführen. Das galt ebenso für die temporale Kohärenz der einzelnen, aufeinanderfolgenden Frames.\\
+
+\subsubsection*{Formgleichheit} Die generelle Form der ursprünglichen, niedrig aufgelösten Simulation sollte erhalten bleiben. Es sollten jedoch mehr Details im Rauch sichtbar sein.\\
+
+\subsubsection*{Schnelligkeit} Das Upsampling durch das neuronale Netz sollte für alle Frames einer Simulation weniger Zeit in Anspruch nehmen, als das Simulieren derselben Simulation in vierfacher Größe ihrer Auflösung pro Dimension. \\
+
+\subsubsection*{Datensparsamkeit} Das neuronale Netz soll das Upsampling nur mit dem Density und Temperature Field einer Simulation durchführen können.\\
+

@@ -1,0 +1,106 @@
+\documentclass[12pt,a4paper,oneside,ngerman]{report}
+
+% Spracheinstellungen
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{hyphenat}
+
+% packages
+\usepackage{comment}
+\usepackage[nohyperlinks, printonlyused]{acronym}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{pythonhighlight}
+\usepackage{tabu}
+\usepackage[
+natbib=true,
+backend=biber,
+style=apa
+]{biblatex}
+\addbibresource{bibfile.bib}
+\usepackage{float}
+
+% image source
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\source}[1]{\vspace{-8pt} \caption*{\scriptsize Quelle: {#1}} }
+
+
+% Einstellungen
+\fancypagestyle{plain}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % Obere Trennlinie
+\rfoot{\thepage}
+}
+
+% Kopfzeilengestaltung
+\fancypagestyle{fancy}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\chaptermark}[1]{\markboth{##1}{}}
+\fancyhead[R]{\leftmark }
+\rfoot{\thepage}
+}
+
+\pagestyle{plain}
+\graphicspath{{bilder/}}
+\setlength{\headheight}{14.49998pt}
+
+\setcounter{tocdepth}{4} % Subsubsectinons in TOC
+\setcounter{secnumdepth}{4}
+
+% "Kapitel X" entfernen
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+
+% Abstand von Seitenrand zu Kapitel kleiner
+\titlespacing{\chapter}{0pt}{-1cm}{0.75cm}
+\usepackage{etoolbox}
+%\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+
+\begin{document}
+
+    \include{titelseite}
+    \pagenumbering{Roman}
+
+    \include{kapitel/ehre}
+    \include{kapitel/sperrvermerk}
+    \include{kapitel/gender}
+    \include{kapitel/kurzfassung}
+    \include{kapitel/abstract}
+    
+    \include{kapitel/figures}
+    \include{kapitel/tables}
+    
+    \include{kapitel/abkuerzungsverzeichnis}
+    \include{kapitel/glossar}
+    
+    \include{inhalt}
+    
+    \pagenumbering{arabic}
+    
+    \cleardoublepage
+
+    \pagestyle{fancy}
+    \include{kapitel/einfuehrung}
+
+    \include{kapitel/visual-effects}
+    
+    \include{kapitel/kuenstliche-intelligenz}
+    \include{kapitel/standderforschung}
+    \include{kapitel/methodik}
+    \include{kapitel/implementierung}
+    \include{kapitel/ergebnisse}
+    \include{kapitel/ausblick}
+    \include{kapitel/anhang}
+    \pagestyle{plain}
+    \include{kapitel/literatur}
+    
+\end{document}
