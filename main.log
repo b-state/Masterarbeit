@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.16)  24 FEB 2025 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.16)  24 FEB 2025 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,10 +798,10 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (./main.aux (./titelseite.aux) (./kapitel/ehre.aux)
-(./kapitel/sperrvermerk.aux) (./kapitel/gender.aux) (./kapitel/kurzfassung.aux)
-(./kapitel/abstract.aux) (./kapitel/figures.aux) (./kapitel/tables.aux)
-(./kapitel/abkuerzungsverzeichnis.aux) (./kapitel/glossar.aux) (./inhalt.aux)
-(./kapitel/gliederung.aux) (./kapitel/literatur.aux))
+(./kapitel/kurzfassung.aux) (./kapitel/abstract.aux) (./kapitel/figures.aux)
+(./kapitel/tables.aux) (./kapitel/abkuerzungsverzeichnis.aux)
+(./kapitel/glossar.aux) (./inhalt.aux) (./kapitel/gliederung.aux)
+(./kapitel/literatur.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -905,7 +905,7 @@ Package hyperref Info: Link coloring OFF on input line 68.
 \openout2 = `titelseite.aux'.
 
  (./titelseite.tex
-<bilder/hdmlogo.png, id=288, 2007.5pt x 1846.9pt>
+<bilder/hdmlogo.png, id=264, 2007.5pt x 1846.9pt>
 File: bilder/hdmlogo.png Graphic file (type png)
 <use bilder/hdmlogo.png>
 Package pdftex.def Info: bilder/hdmlogo.png  used on input line 3.
@@ -930,32 +930,32 @@ hdmlogo.png>])
 \openout2 = `kapitel/ehre.aux'.
 
  (./kapitel/ehre.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--28
+Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
  []
 
@@ -965,26 +965,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--28
 
 
 ]
-\openout2 = `kapitel/sperrvermerk.aux'.
-
- (./kapitel/sperrvermerk.tex) [2
-
-
-
-
-]
-\openout2 = `kapitel/gender.aux'.
-
- (./kapitel/gender.tex) [3
-
-
-
-
-]
 \openout2 = `kapitel/kurzfassung.aux'.
 
-
-(./kapitel/kurzfassung.tex) [4
+ (./kapitel/kurzfassung.tex) [2
 
 
 
@@ -992,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--28
 ]
 \openout2 = `kapitel/abstract.aux'.
 
- (./kapitel/abstract.tex) [5
+ (./kapitel/abstract.tex) [3
 
 
 
@@ -1005,7 +988,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--28
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-) [6
+) [4
 
 
 
@@ -1017,14 +1000,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--28
 \openout7 = `main.lot'.
 
 )
-[7
+[5
 
 
 
 ]
 \openout2 = `kapitel/abkuerzungsverzeichnis.aux'.
 
- (./kapitel/abkuerzungsverzeichnis.tex) [8
+ (./kapitel/abkuerzungsverzeichnis.tex) [6
 
 
 
@@ -1032,56 +1015,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--28
 ]
 \openout2 = `kapitel/glossar.aux'.
 
- (./kapitel/glossar.tex
-Underfull \hbox (badness 6691) in paragraph at lines 56--56
-[]|\T1/cmr/m/n/12 Problem ei-nes neu-ro-na-len Net-zes,
- []
-
-) [9
-
-
-
-
-] [10] [11]
-\openout2 = `inhalt.aux'.
-
- (./inhalt.tex (./main.toc
-Overfull \hbox (6.2658pt too wide) in paragraph at lines 14--14
- [][] [][]\T1/cmr/m/n/12 Herausforderungen bei der Selbs-t-e-va-lua-ti-on des S
-tartup- 
- []
-
-
-Overfull \hbox (42.71239pt too wide) in paragraph at lines 17--17
- [][] [][]\T1/cmr/m/n/12 Fehlende stan-dar-di-sier-te Me-tho-de zur Startup-Sel
-bsteinschätzung[] [][]  
- []
-
-
-Overfull \hbox (1.47073pt too wide) in paragraph at lines 18--18
- [][] [][]\T1/cmr/m/n/12 Ziel: Ent-wick-lung ei-nes ad-ap-ti-ven Fra-ge-bo-gens
- zur Eva- 
- []
-
-[12
+ (./kapitel/glossar.tex) [7
 
 
 
 
 ]
-Overfull \hbox (2.0845pt too wide) in paragraph at lines 37--37
+\openout2 = `inhalt.aux'.
+
+
+(./inhalt.tex (./main.toc [8
+
+
+
+
+]
+Overfull \hbox (2.0845pt too wide) in paragraph at lines 31--31
  [][] [][]\T1/cmr/m/n/12 Adaptive Fragebogen-Systeme: Dy-na-mi-sche An-pas-sung
  
  []
 
-[13]
-Overfull \hbox (48.94702pt too wide) in paragraph at lines 65--65
- [][] [][]\T1/cmr/m/n/12 Bedeutung ad-ap-ti-ver Fra-ge-bö-gen für Startup-Selbs
-teinschätzungen[] [][]  
- []
-
-
-Overfull \hbox (8.47632pt too wide) in paragraph at lines 71--71
+[9]
+Overfull \hbox (8.47632pt too wide) in paragraph at lines 65--65
  [][] [][]\T1/cmr/m/n/12 Weiterentwicklung des Fra-ge-bo-gens durch Ma-chi-ne L
 ear- 
  []
@@ -1090,45 +1045,18 @@ ear-
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-) [14]
+) [10]
 \openout2 = `kapitel/gliederung.aux'.
 
  (./kapitel/gliederung.tex
 Kapitel 1.
 
-Overfull \hbox (7.59648pt too wide) in paragraph at lines 5--5
-|[]\T1/cmr/bx/n/14.4 Bedeutung des De-sign Thinking-Prozesses für Star-
- []
-
-
-Overfull \hbox (108.98541pt too wide) in paragraph at lines 10--10
-|[]\T1/cmr/bx/n/14.4 Fehlende stan-dar-di-sier-te Me-tho-de zur Startup-Selbste
-inschätzung| 
- []
-
-
-Overfull \hbox (0.6659pt too wide) in paragraph at lines 11--11
-|[]\T1/cmr/bx/n/14.4 Ziel: Ent-wick-lung ei-nes ad-ap-ti-ven Fra-ge-bo-gens zur
-
- []
-
-
-Overfull \hbox (2.00327pt too wide) in paragraph at lines 15--15
-|[]\T1/cmr/bx/n/14.4 Welche Me-tri-ken sind ge-eig-net, um den Fort-schritt
- []
-
-
-Overfull \hbox (4.35521pt too wide) in paragraph at lines 15--15
-\T1/cmr/bx/n/14.4 ei-nes Star-tups im De-sign Thinking-Prozess zu mes-
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \chapter
-             {Theoretische Grundlagen} [1
+l.3 \chapter
+            {Ãœberblick} [1
 
 
 
@@ -1136,41 +1064,43 @@ l.20 \chapter
 
 ]
 Kapitel 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 6.
+
+
+Overfull \hbox (1.20915pt too wide) in paragraph at lines 7--7
+|[]\T1/cmr/bx/n/17.28 Relevanz ei-nes struk-tu-rier-ten Rei-fe-grad-mo-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 8.
+
 [2
 
 ]
 Kapitel 3.
+
+Overfull \hbox (20.23479pt too wide) in paragraph at lines 11--11
+\T1/cmr/bx/n/17.28 zur Eva-lua-ti-on des De-sign Thinking-Prozesses
+ []
+
 [3
 
 ]
 Kapitel 4.
-
-Overfull \hbox (19.72177pt too wide) in paragraph at lines 46--46
-|[]\T1/cmr/bx/n/17.28 Evaluation durch Be-fra-gungs-run-den mit Star-
- []
-
 [4
 
 ]
 Kapitel 5.
-
-Overfull \hbox (48.22577pt too wide) in paragraph at lines 51--51
-|[]\T1/cmr/bx/n/14.4 Strukturierte Er-fas-sung des De-sign Thinking-Fortschritt
-s| 
- []
-
-
-Overfull \hbox (14.43422pt too wide) in paragraph at lines 56--56
-|[]\T1/cmr/bx/n/14.4 Definition von Re-geln für Fol-ge-fra-gen und Feedback-
- []
-
 [5
 
 ]
 Kapitel 6.
 
-Overfull \hbox (3.60132pt too wide) in paragraph at lines 65--65
-|[]\T1/cmr/bx/n/14.4 Durchführung des Fra-ge-bo-gens mit Startup-Teams| 
+Overfull \hbox (19.72177pt too wide) in paragraph at lines 41--41
+|[]\T1/cmr/bx/n/17.28 Evaluation durch Be-fra-gungs-run-den mit Star-
  []
 
 [6
@@ -1178,17 +1108,39 @@ Overfull \hbox (3.60132pt too wide) in paragraph at lines 65--65
 ]
 Kapitel 7.
 
-Overfull \hbox (116.76086pt too wide) in paragraph at lines 77--77
-|[]\T1/cmr/bx/n/14.4 Bedeutung ad-ap-ti-ver Fra-ge-bö-gen für Startup-Selbstein
-schätzungen| 
+Overfull \hbox (48.22577pt too wide) in paragraph at lines 46--46
+|[]\T1/cmr/bx/n/14.4 Strukturierte Er-fas-sung des De-sign Thinking-Fortschritt
+s| 
  []
 
 
-Overfull \hbox (25.69502pt too wide) in paragraph at lines 78--78
+Overfull \hbox (14.43422pt too wide) in paragraph at lines 51--51
+|[]\T1/cmr/bx/n/14.4 Definition von Re-geln für Fol-ge-fra-gen und Feedback-
+ []
+
+[7
+
+]
+Kapitel 8.
+
+Overfull \hbox (3.60132pt too wide) in paragraph at lines 60--60
+|[]\T1/cmr/bx/n/14.4 Durchführung des Fra-ge-bo-gens mit Startup-Teams| 
+ []
+
+[8
+
+]
+Kapitel 9.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 72.
+
+
+Overfull \hbox (25.69502pt too wide) in paragraph at lines 73--73
 |[]\T1/cmr/bx/n/14.4 Potenzial von Rei-fe-grad-mo-del-len im De-sign Thinking-
  []
 
-) [7
+) [9
 
 ]
 \openout2 = `kapitel/literatur.aux'.
@@ -1198,10 +1150,10 @@ Overfull \hbox (25.69502pt too wide) in paragraph at lines 78--78
 LaTeX Warning: Empty bibliography on input line 7.
 
 ) (./main.aux (./titelseite.aux) (./kapitel/ehre.aux)
-(./kapitel/sperrvermerk.aux) (./kapitel/gender.aux) (./kapitel/kurzfassung.aux)
-(./kapitel/abstract.aux) (./kapitel/figures.aux) (./kapitel/tables.aux)
-(./kapitel/abkuerzungsverzeichnis.aux) (./kapitel/glossar.aux) (./inhalt.aux)
-(./kapitel/gliederung.aux) (./kapitel/literatur.aux))
+(./kapitel/kurzfassung.aux) (./kapitel/abstract.aux) (./kapitel/figures.aux)
+(./kapitel/tables.aux) (./kapitel/abkuerzungsverzeichnis.aux)
+(./kapitel/glossar.aux) (./inhalt.aux) (./kapitel/gliederung.aux)
+(./kapitel/literatur.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1210,14 +1162,8 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 4ABD6C258AE6B89A1FC6557A77A0DA31;18440
-(rerunfilecheck)             After:  49B2DB53554C096FC93401436EFB2935;18412.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5A7C4BDC4D4DD826EAF0062D0A6205A1;16260.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1228,10 +1174,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24908 strings out of 474116
- 428711 string characters out of 5743682
- 1945187 words of memory out of 5000000
- 46773 multiletter control sequences out of 15000+600000
+ 24841 strings out of 474116
+ 426825 string characters out of 5743682
+ 1942187 words of memory out of 5000000
+ 46730 multiletter control sequences out of 15000+600000
  569804 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,12n,81p,1149b,7179s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1240,10 +1186,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (22 pages, 232094 bytes).
+Output written on main.pdf (20 pages, 224307 bytes).
 PDF statistics:
- 528 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 574 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
