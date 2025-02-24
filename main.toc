@@ -8,51 +8,65 @@
 \contentsline {chapter}{Tabellenverzeichnis}{VII}{chapter*.6}%
 \contentsline {chapter}{Abkürzungsverzeichnis}{VIII}{chapter*.8}%
 \contentsline {chapter}{Glossar}{IX}{chapter*.10}%
-\contentsline {chapter}{\numberline {1}Einführung}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Visual Effects}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Was sind Visual Effects?}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Was ist CGI?}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Definition: Simulation}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Arten von Simulationen im VFX-Bereich}{8}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Rigid Body Simulations}{9}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Particle Simulations}{9}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Pyro Simulations}{10}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Water Simulations}{11}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Dateiformat OpenVDB}{12}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Optimierung von Simulationen}{12}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Künstliche Intelligenz}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definition: künstliche Intelligenz}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Ebenen der künstlichen Intelligenz}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Einführung in neuronale Netze}{16}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Aufbau und Funktion neuronaler Netze}{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Training eines neuronalen Netzes}{20}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Convolutional Neural Networks}{22}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Resiudal Neural Networks}{24}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Generative Adversarial Networks}{25}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Aufbau und Training eines Generative Adversarial Networks}{26}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Probleme und Fehlerquellen}{27}{section.3.10}%
-\contentsline {chapter}{\numberline {4}Stand der Forschung}{30}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Methodik}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Art der Methodik}{32}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Aufbau und Ablauf des Experiments}{32}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Gütekriterien}{33}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Implementierung}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Setup}{35}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Datenerhebung}{35}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Aufbau des Netzes}{36}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Generator}{38}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Diskriminator}{40}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Training des Netzes}{41}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Ausgabe des Netzes}{43}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Ergebnisse}{44}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Evaluation der Gütekriterien}{44}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Artefaktfreiheit}{44}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Formgleichheit}{48}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Schnelligkeit}{48}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Datensparsamkeit}{50}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Vergleich mit tempoGAN}{50}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Fazit und Lösungsansatz}{51}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Ausblick}{53}{chapter.8}%
-\contentsline {chapter}{Anhang}{54}{chapter*.33}%
-\contentsline {section}{\numberline {8.1}Aufbau des Generators}{54}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Aufbau des Discriminators}{55}{section.8.2}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Hintergrund und Motivation}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Bedeutung des Design Thinking-Prozesses für Startups}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Herausforderungen bei der Selbstevaluation des Startup-Fortschritts}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Relevanz eines strukturierten Reifegradmodells}{1}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Problemstellung und Zielsetzung}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Fehlende standardisierte Methode zur Startup-Selbsteinschätzung}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Ziel: Entwicklung eines adaptiven Fragebogens zur Evaluation des Design Thinking-Prozesses eines Startups}{1}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Forschungsfragen}{1}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Wie kann ein dynamischer Fragebogen entwickelt werden, der sich an den Antworten der Nutzer orientiert?}{1}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Welche Metriken sind geeignet, um den Fortschritt eines Startups im Design Thinking-Prozess zu messen?}{1}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Aufbau der Arbeit}{1}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Überblick über die Kapitelstruktur}{1}{subsection.1.4.1}%
+\contentsline {chapter}{\numberline {2}Theoretische Grundlagen}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Grundlagen des Design Thinking-Prozesses}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Definition und Phasen des Design Thinking}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Unterschiede zu anderen Innovationsmethoden}{2}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Lean Startup}{2}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Weitere Methoden}{2}{subsubsection.2.1.2.2}%
+\contentsline {section}{\numberline {2.2}Reifegradmodelle in der Startup-Forschung}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Bestehende Reifegradmodelle}{2}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Schwächen dieser Modelle}{2}{subsubsection.2.2.1.1}%
+\contentsline {subsection}{\numberline {2.2.2}Anforderungen an ein praxistaugliches Reifegradmodell für Startups}{2}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Fragebögen zur Selbsteinschätzung}{2}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Grundlagen zu Fragebögen mit Selbstkontrolle}{2}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}Kombination aus qualitativen und quantitativen Fragen}{2}{subsubsection.2.3.1.1}%
+\contentsline {subsection}{\numberline {2.3.2}Adaptive Fragebogen-Systeme: Dynamische Anpassung der Fragen}{2}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Gezielte Rückfragen}{2}{subsubsection.2.3.2.1}%
+\contentsline {subsection}{\numberline {2.3.3}Definition von Metriken zur Startup-Evaluation}{2}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Stand der Forschung}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Methodik}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experteninterviews zur Identifikation von Selbstüberschätzung}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Entwicklung eines Fragebogens mit und ohne adaptive Nachfragen}{4}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Evaluation durch Befragungsrunden mit Startups}{4}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Entwicklung des Fragebogens}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Anforderungen an den Fragebogen}{5}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Strukturierte Erfassung des Design Thinking-Fortschritts}{5}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Kriterien für die Formulierung von Fragen und Antwortoptionen}{5}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Dynamische Anpassung der Fragen}{5}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Konzept eines adaptiven Fragebogens}{5}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Definition von Regeln für Folgefragen und Feedback-Mechanismen}{5}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Technische Umsetzung als Web-Tool}{5}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Architektur des webbasierten Fragebogens}{5}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Technologien und Frameworks für die Entwicklung}{5}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Evaluation und Analyse}{6}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Testphase mit Startups}{6}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Durchführung des Fragebogens mit Startup-Teams}{6}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Datenerhebung}{6}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Auswertung der Ergebnisse}{6}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Analyse der erfassten Daten}{6}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Vergleich mit bestehenden Methoden}{6}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Diskussion der Vorteile des entwickelten Modells im Vergleich zu bestehenden Ansätzen}{6}{subsection.6.3.1}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{7}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Zusammenfassung der Erkenntnisse}{7}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Bedeutung adaptiver Fragebögen für Startup-Selbsteinschätzungen}{7}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Potenzial von Reifegradmodellen im Design Thinking-Kontext}{7}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Limitationen der Arbeit}{7}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Herausforderungen bei der Messung subjektiver Einschätzungen}{7}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Mögliche Verzerrungen durch Selbstauskunft}{7}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Zukünftige Forschungsansätze}{7}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Weiterentwicklung des Fragebogens durch Machine Learning}{7}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Anwendung des Modells auf andere Innovationsmethoden}{7}{subsection.7.3.2}%

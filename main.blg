@@ -12,22 +12,15 @@ A level-1 auxiliary file: kapitel/tables.aux
 A level-1 auxiliary file: kapitel/abkuerzungsverzeichnis.aux
 A level-1 auxiliary file: kapitel/glossar.aux
 A level-1 auxiliary file: inhalt.aux
-A level-1 auxiliary file: kapitel/einfuehrung.aux
 A level-1 auxiliary file: kapitel/visual-effects.aux
-A level-1 auxiliary file: kapitel/kuenstliche-intelligenz.aux
-A level-1 auxiliary file: kapitel/standderforschung.aux
-A level-1 auxiliary file: kapitel/methodik.aux
-A level-1 auxiliary file: kapitel/implementierung.aux
-A level-1 auxiliary file: kapitel/ergebnisse.aux
-A level-1 auxiliary file: kapitel/ausblick.aux
-A level-1 auxiliary file: kapitel/anhang.aux
+A level-1 auxiliary file: kapitel/gliederung.aux
 A level-1 auxiliary file: kapitel/literatur.aux
 I found no \citation commands---while reading file main.aux
 I found no \bibdata command---while reading file main.aux
 I found no \bibstyle command---while reading file main.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            104 strings with 938 characters,
+            97 strings with 766 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

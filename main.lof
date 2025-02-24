@@ -1,25 +1,8 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Vorher-Nachher-Vergleich der Simulationen eines Shots aus dem Film \glqq Moana\grqq {} (2016).}}{7}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Wireframe Ansicht eines 3D-Modells.}}{9}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Aufbau eines Voxel Grids.}}{11}{figure.caption.17}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ebenen der künstlichen Intelligenz.}}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Darstellung eines neuronalen Netzes im menschlichen Gehirn.}}{17}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Darstellung eines künstlichen neuronalen Netzes.}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Aktivierung eines Neurons mittels der Stufenfunktion.}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Arbeitsweise eines Convolutional Layer.}}{23}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Aufbau eines Residual Blocks.}}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Aufbau eines Generative Adversarial Networks.}}{25}{figure.caption.24}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematischer Aufbau des tempoGAN.}}{37}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Der Aufbau eines Frame-Pakets.}}{41}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Umformung eines Fields in kleinere 3D-Sub-Arrays.}}{41}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Detailansicht von Frame 80 der Simulationsvariante 2.}}{45}{figure.caption.29}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Vergleich einer Simulation mit einer hochskalierten Version derselben Simulation über die Zeit von 80 Frames.}}{46}{figure.caption.30}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Fehlerwerte des Generators und Discriminators.}}{47}{figure.caption.31}%
 \addvspace {10\p@ }
