@@ -8,8 +8,8 @@
 \contentsline {chapter}{Glossar}{VII}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}Vorwort}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Überblick}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Bedeutung des Design Thinking-Prozesses für Startups}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Herausforderungen bei der Selbstevaluation des \\ Startup-Fortschritts}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Herausforderungen bei der Selbstevaluation des \\ Startup-Fortschritts}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bedeutung des Design Thinking-Prozesses für Startups}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Relevanz eines strukturierten Reifegradmodells}{2}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Fehlende standardisierte Methode zur \\ Startup-Selbsteinschätzung}{2}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Ziele}{3}{chapter.3}%
