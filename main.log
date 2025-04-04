@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.16)  24 FEB 2025 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.16)  4 APR 2025 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -905,7 +905,7 @@ Package hyperref Info: Link coloring OFF on input line 68.
 \openout2 = `titelseite.aux'.
 
  (./titelseite.tex
-<bilder/hdmlogo.png, id=264, 2007.5pt x 1846.9pt>
+<bilder/hdmlogo.png, id=304, 2007.5pt x 1846.9pt>
 File: bilder/hdmlogo.png Graphic file (type png)
 <use bilder/hdmlogo.png>
 Package pdftex.def Info: bilder/hdmlogo.png  used on input line 3.
@@ -1030,13 +1030,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--26
 
 
 ]
-Overfull \hbox (2.0845pt too wide) in paragraph at lines 31--31
+Overfull \hbox (13.66673pt too wide) in paragraph at lines 31--31
+ [][] [][]\T1/cmr/m/n/12 Ideen- und Team-Findung (Vision-Opportunity- 
+ []
+
+
+Overfull \hbox (20.91084pt too wide) in paragraph at lines 33--33
+ [][] [][]\T1/cmr/m/n/12 Marktgerechte Lö-sungs-fin-dung (Solution-Market- 
+ []
+
+
+Overfull \hbox (14.6457pt too wide) in paragraph at lines 34--34
+ [][] [][]\T1/cmr/m/n/12 Übergang zum Markt-Start (Tran-si-ti-on to Launch)[] [
+][]  
+ []
+
+
+Overfull \hbox (2.0845pt too wide) in paragraph at lines 41--41
  [][] [][]\T1/cmr/m/n/12 Adaptive Fragebogen-Systeme: Dy-na-mi-sche An-pas-sung
  
  []
 
 [9]
-Overfull \hbox (8.47632pt too wide) in paragraph at lines 65--65
+Overfull \hbox (8.47632pt too wide) in paragraph at lines 75--75
  [][] [][]\T1/cmr/m/n/12 Weiterentwicklung des Fra-ge-bo-gens durch Ma-chi-ne L
 ear- 
  []
@@ -1069,20 +1085,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 5.
 
 
-Overfull \hbox (1.20915pt too wide) in paragraph at lines 8--8
-|[]\T1/cmr/bx/n/17.28 Relevanz ei-nes struk-tu-rier-ten Rei-fe-grad-mo-
- []
-
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 9.
+(hyperref)                removing `\\' on input line 8.
 
 [2
 
 ]
 Kapitel 3.
 
-Overfull \hbox (20.23479pt too wide) in paragraph at lines 12--12
+Overfull \hbox (20.23479pt too wide) in paragraph at lines 11--11
 \T1/cmr/bx/n/17.28 zur Eva-lua-ti-on des De-sign Thinking-Prozesses
  []
 
@@ -1093,54 +1104,47 @@ Kapitel 4.
 [4
 
 ]
+Overfull \vbox (219.36354pt too high) has occurred while \output is active []
+
+
+[5]
 Kapitel 5.
-[5
+[6
 
 ]
 Kapitel 6.
 
-Overfull \hbox (19.72177pt too wide) in paragraph at lines 42--42
+Overfull \hbox (19.72177pt too wide) in paragraph at lines 54--54
 |[]\T1/cmr/bx/n/17.28 Evaluation durch Be-fra-gungs-run-den mit Star-
- []
-
-[6
-
-]
-Kapitel 7.
-
-Overfull \hbox (48.22577pt too wide) in paragraph at lines 47--47
-|[]\T1/cmr/bx/n/14.4 Strukturierte Er-fas-sung des De-sign Thinking-Fortschritt
-s| 
- []
-
-
-Overfull \hbox (14.43422pt too wide) in paragraph at lines 52--52
-|[]\T1/cmr/bx/n/14.4 Definition von Re-geln für Fol-ge-fra-gen und Feedback-
  []
 
 [7
 
 ]
-Kapitel 8.
+Kapitel 7.
 
-Overfull \hbox (3.60132pt too wide) in paragraph at lines 61--61
-|[]\T1/cmr/bx/n/14.4 Durchführung des Fra-ge-bo-gens mit Startup-Teams| 
+Overfull \hbox (14.43422pt too wide) in paragraph at lines 64--64
+|[]\T1/cmr/bx/n/14.4 Definition von Re-geln für Fol-ge-fra-gen und Feedback-
  []
 
 [8
 
 ]
+Kapitel 8.
+
+Overfull \hbox (3.60132pt too wide) in paragraph at lines 73--73
+|[]\T1/cmr/bx/n/14.4 Durchführung des Fra-ge-bo-gens mit Startup-Teams| 
+ []
+
+[9
+
+]
 Kapitel 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 73.
+(hyperref)                removing `\\' on input line 85.
 
-
-Overfull \hbox (25.69502pt too wide) in paragraph at lines 74--74
-|[]\T1/cmr/bx/n/14.4 Potenzial von Rei-fe-grad-mo-del-len im De-sign Thinking-
- []
-
-) [9
+) [10
 
 ]
 \openout2 = `kapitel/literatur.aux'.
@@ -1163,7 +1167,7 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 513F4E35D4A0331D1E7ADD311BE1521C;16260.
+(rerunfilecheck)             Checksum: B7CDFA4E9CDC1F275AF38AD2949F4A30;18877.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1174,10 +1178,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24841 strings out of 474116
- 426825 string characters out of 5743682
+ 24864 strings out of 474116
+ 427299 string characters out of 5743682
  1942187 words of memory out of 5000000
- 46730 multiletter control sequences out of 15000+600000
+ 46742 multiletter control sequences out of 15000+600000
  569804 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,12n,81p,1149b,7179s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1186,10 +1190,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (20 pages, 224313 bytes).
+Output written on main.pdf (21 pages, 231523 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
 
