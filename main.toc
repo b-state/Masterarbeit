@@ -8,10 +8,11 @@
 \contentsline {chapter}{Glossar}{VII}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}Vorwort}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Überblick}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Herausforderungen bei der Selbstevaluation des \\ Startup-Fortschritts}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Fehlende standardisierte Methode zur \\ Startup-Selbsteinschätzung}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Evaluation von Startups}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Herausforderungen und Chancen}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Fehlende standardisierte Methode zur Reifegradmessung von Startups}{2}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Ziele}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Entwicklung eines adaptiven Fragebogens zur Evaluation des Design Thinking-Prozesses eines Startups}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Entwicklung eines adaptiven Fragebogens zur Evaluation des Reifegrades eines Startups}{3}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Forschungsfragen}{3}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Theoretische Grundlagen}{4}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Reifegradmodelle in der Startup-Forschung}{5}{section.4.1}%
